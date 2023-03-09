@@ -1,0 +1,11 @@
+Event Driven Architecture
+
+EDA is a software design pattern in which decoupled applications can
+asynchronously publish and subscribe to events/actions or messages via an event broker.
+
+All the apps will use msg broker for async communication
+
+In Eda ,applications communicate with each other by sending
+or receiving messages
+
+Since applications are loosely coupled, they can scaled independently with ease.
