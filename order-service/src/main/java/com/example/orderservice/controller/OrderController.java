@@ -24,7 +24,7 @@ public class OrderController {
 
     @PostMapping("/publish")
     ResponseEntity<String> publishOrderEvents(@RequestBody OrderDto order) {
-        order.setOrderId(Long.parseLong(UUID.randomUUID().toString()));
+        //order.setOrderId(Long.parseLong(UUID.randomUUID()));
         //instantiate OrderEvent from basedomains and set the order and status
         OrderEventDto orderEvent=new OrderEventDto();
         orderEvent.setOrder(order);
