@@ -1,5 +1,4 @@
 package com.example.basedomains.dto;
-
 import lombok.*;
 
 @Getter
